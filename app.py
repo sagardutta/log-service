@@ -54,7 +54,6 @@ def crossdomain(origin=None, methods=None, headers=None,
 def get_log():
     print(request.json)
 
-
     # tasks.append(task)
     return jsonify( {}), 200
 if __name__ == '__main__':
